@@ -1,0 +1,70 @@
+/* GENERAL */
+body {
+  background-color: lightgrey;
+}
+.container {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(222, 95, 17, 0.828);
+  padding: 10px 10px 10px 10px;
+}
+h3 {
+  font-size: 18px;
+  text-align: start;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+/* -- HEADER --------------- */
+header {
+  background-color: white;
+  height: 80;
+  border-bottom: 1px solid coral;
+}
+header img {
+  width: 200px;
+  margin-top: 23px;
+}
+/* -- MAIN --------------- */
+main {
+  padding-top: 40px;
+}
+main .container {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+h1 + p {
+  color: grey;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+main .temps {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+section img {
+  width: 250px;
+  height: 250px;
+  padding: 60px 20px;
+  border-radius: 5px;
+  object-position: center;
+}
+section img:nth-child(2) {
+  margin: 0 20px;
+}
+section li {
+  list-style: inside;
+}
